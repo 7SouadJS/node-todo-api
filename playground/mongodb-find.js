@@ -24,5 +24,5 @@ db.collection('users').find({name: 'souad bouzid'}).toArray().then((docs)=>
 		console.log(JSON.stringify(docs, undefined,2));
 	});
 
-//db.close();
+db.close();
 });
